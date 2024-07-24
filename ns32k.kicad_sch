@@ -19373,6 +19373,7 @@
 		(at 232.918 185.928 0)
 		(effects
 			(font
+				(face "Courier")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -20538,6 +20539,7 @@
 	)
 	(label "CTTL"
 		(at 72.39 242.57 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22275,6 +22277,7 @@
 	)
 	(label "CTTL"
 		(at 269.24 72.39 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
