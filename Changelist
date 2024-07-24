@@ -1,0 +1,8 @@
+Forward-looking branch for Rev 2
+
+Changes:
+
+* Directly support INTA/RETI CPU cycles for ICU reads
+* Reset button
+* Ethernet
+* Layout improvements (shift TCU, fit XO)
