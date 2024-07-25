@@ -2,12 +2,13 @@ Forward-looking branch for Rev 2
 
 To do:
 
-* Diag jumper
 * Ethernet
-* Layout improvements (shift TCU, fit XO)
 
 Done:
 
 * Directly support INTA/RETI CPU cycles for ICU reads
 * Fix VUSB divider error
 * Reset button
+* Diag jumper
+* Move USB-C receptacle to back side
+* Layout improvements (shift TCU, fit XO)
