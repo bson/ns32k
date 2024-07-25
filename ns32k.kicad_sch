@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "NS32016 Toy PCB")
-		(date "2024-07-19")
-		(rev "Rev 1")
+		(date "2024-07-24")
+		(rev "Rev 2")
 		(comment 1 "bson@rockgarden.net")
 		(comment 2 "Jan Brittenson")
 		(comment 3 "Power, NS32k Clock, Reset")
@@ -8681,6 +8681,12 @@
 		(uuid "63ef5742-c5cd-471e-a0a2-a024d3f82567")
 	)
 	(junction
+		(at 299.72 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71683ffe-16f1-4ed5-acf0-29d3c972ab45")
+	)
+	(junction
 		(at 293.37 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9004,15 +9010,6 @@
 			(type default)
 		)
 		(uuid "0dad867a-6fb4-410f-a2fa-ab50931e73e2")
-	)
-	(bus_entry
-		(at 255.27 154.94)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fbef626-4e37-415a-9093-4551444e91f4")
 	)
 	(bus_entry
 		(at 270.51 246.38)
@@ -13275,16 +13272,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 163.83) (xy 252.73 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ca992c9-5e02-4b9e-afa9-71b61ac2b12b")
-	)
-	(wire
-		(pts
 			(xy 127 170.18) (xy 134.62 170.18)
 		)
 		(stroke
@@ -15595,6 +15582,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 36.83) (xy 304.8 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72c17482-e8e1-4f22-b9cc-a16b1b6a6770")
+	)
+	(wire
+		(pts
 			(xy 95.25 88.9) (xy 95.25 90.17)
 		)
 		(stroke
@@ -15692,6 +15689,16 @@
 			(type default)
 		)
 		(uuid "75a33642-aa0d-47a1-a26e-a310ae05eb4c")
+	)
+	(wire
+		(pts
+			(xy 304.8 43.18) (xy 304.8 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f79056-7b0b-4ef9-961f-1cf954dfbd34")
 	)
 	(wire
 		(pts
@@ -16642,16 +16649,6 @@
 			(type default)
 		)
 		(uuid "91e6e570-aa10-40bd-88cd-d8e8694dafd0")
-	)
-	(wire
-		(pts
-			(xy 252.73 157.48) (xy 252.73 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "928015fa-f900-49b4-8adc-e21e29fd06ba")
 	)
 	(wire
 		(pts
@@ -19705,6 +19702,16 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 36.83) (xy 304.8 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa95e675-2af8-473e-8ac5-662805a5fc87")
+	)
+	(wire
+		(pts
 			(xy 127 73.66) (xy 127 68.58)
 		)
 		(stroke
@@ -21249,17 +21256,6 @@
 			(justify left bottom)
 		)
 		(uuid "5d417bcc-c0fd-46b5-820d-f25583204679")
-	)
-	(label "~{ICU}"
-		(at 252.73 158.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5db563c3-baeb-47c2-a0ac-c1360945d65a")
 	)
 	(label "A19"
 		(at 260.35 81.28 90)
@@ -27939,72 +27935,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 252.73 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02bf5efb-a827-4a2d-8908-c6e7a87272b1")
-		(property "Reference" "#PWR041"
-			(at 252.73 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 252.73 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57dce8b0-cc14-45e2-b974-69797440929c")
-		)
-		(instances
-			(project "ns32k"
-				(path "/54787df0-1b8c-465f-acae-f55ec7f02da3"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xGxx:74AHC1G08")
 		(at 281.94 36.83 0)
 		(unit 1)
@@ -28282,6 +28212,72 @@
 			(project ""
 				(path "/54787df0-1b8c-465f-acae-f55ec7f02da3"
 					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 304.8 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b80e9c9-a611-4cf3-b400-da4aa17aa9fc")
+		(property "Reference" "#PWR041"
+			(at 304.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 304.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 304.8 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70a327f7-3a92-471b-ac11-038a1ac14689")
+		)
+		(instances
+			(project "ns32k"
+				(path "/54787df0-1b8c-465f-acae-f55ec7f02da3"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -29498,75 +29494,6 @@
 			(project "ns32k"
 				(path "/54787df0-1b8c-465f-acae-f55ec7f02da3"
 					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 252.73 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "73040d90-ba9a-4652-b003-060d5638820a")
-		(property "Reference" "C26"
-			(at 255.27 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50pF"
-			(at 255.27 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 252.73 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 252.73 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c909eb7-ec3d-45c4-8370-dce8b200d792")
-		)
-		(pin "2"
-			(uuid "fa28a542-0c3b-4f3d-9d76-60b0209c4f02")
-		)
-		(instances
-			(project "ns32k"
-				(path "/54787df0-1b8c-465f-acae-f55ec7f02da3"
-					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -30891,6 +30818,75 @@
 			(project ""
 				(path "/54787df0-1b8c-465f-acae-f55ec7f02da3"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 304.8 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dcd4d3ba-ca05-42b7-91c4-42c79a114f8b")
+		(property "Reference" "C26"
+			(at 307.34 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "50pF"
+			(at 307.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 304.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 304.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 304.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a54d603-2a2c-4e66-b45d-104ff355c81c")
+		)
+		(pin "2"
+			(uuid "d0cd5062-e8c0-4f81-8e88-13d9c619459e")
+		)
+		(instances
+			(project "ns32k"
+				(path "/54787df0-1b8c-465f-acae-f55ec7f02da3"
+					(reference "C26")
 					(unit 1)
 				)
 			)
