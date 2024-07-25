@@ -5945,20 +5945,20 @@
 		(uuid "f857bb6c-abc8-455b-831e-228aea936a7f")
 	)
 	(no_connect
-		(at 213.36 158.75)
-		(uuid "02b3611e-2e1b-4db5-a1de-958e65632643")
+		(at 226.06 173.99)
+		(uuid "39b9e011-74dc-4fc9-984f-9da37c283a2d")
 	)
 	(no_connect
 		(at 93.98 127)
 		(uuid "440d782e-8e91-4c29-acdb-b123c76b157d")
 	)
 	(no_connect
-		(at 213.36 163.83)
-		(uuid "a2353d5b-750d-4a8c-a1b7-5bea3c0c4db2")
+		(at 226.06 168.91)
+		(uuid "77f86739-60e1-46d7-95b0-1f9f3d883524")
 	)
 	(no_connect
-		(at 228.6 161.29)
-		(uuid "e2e45ee2-cb69-4788-8790-f05d6115bc49")
+		(at 241.3 171.45)
+		(uuid "ec07889f-4096-4221-9bb0-1754b9a2375c")
 	)
 	(wire
 		(pts
@@ -7389,7 +7389,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS08"
+		(property "Value" "74AHC08"
 			(at 210.312 115.57 0)
 			(effects
 				(font
@@ -10265,110 +10265,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS08")
-		(at 220.98 161.29 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "751208f8-b570-4e2f-834a-2ee21083d246")
-		(property "Reference" "U6"
-			(at 220.9717 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS08"
-			(at 220.9717 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 220.98 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
-			(at 220.98 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad And2"
-			(at 220.98 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d611d571-20c4-4444-88c5-0ff3aa8a8cf1")
-		)
-		(pin "9"
-			(uuid "c6cc6932-6a89-4a87-8a1d-9250d7d59f75")
-		)
-		(pin "4"
-			(uuid "718b9646-4d19-482c-b6dd-8cbc74dadb77")
-		)
-		(pin "3"
-			(uuid "a4c8e489-8524-4248-8513-2caa2ea81baf")
-		)
-		(pin "2"
-			(uuid "52218bd4-9e54-43b3-95b9-ab1ce5134263")
-		)
-		(pin "8"
-			(uuid "ff29bdf4-07a8-4a9a-824b-3a9297138882")
-		)
-		(pin "5"
-			(uuid "5ffdc060-6a71-43e3-bcec-e244e62afdd5")
-		)
-		(pin "6"
-			(uuid "f506f523-fd29-4e05-89cc-7dc7e09a4381")
-		)
-		(pin "10"
-			(uuid "0f8bb234-eddc-4a1c-b385-a2cf0b20659c")
-		)
-		(pin "13"
-			(uuid "1fc757ab-6627-4ee8-b614-1b8df857934c")
-		)
-		(pin "7"
-			(uuid "14aa113c-cac2-42bb-a208-092f235816e6")
-		)
-		(pin "14"
-			(uuid "90db57f5-3503-4ad3-8108-1ace93b677ee")
-		)
-		(pin "12"
-			(uuid "4cd8dd1b-690f-45d6-b25b-ddcbc13e09cf")
-		)
-		(pin "11"
-			(uuid "e2303b2b-a229-4061-bd1c-6b94cee6edc0")
-		)
-		(instances
-			(project ""
-				(path "/54787df0-1b8c-465f-acae-f55ec7f02da3/c6a0d4a9-2340-4a27-802f-10b03153dcd5"
-					(reference "U6")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 40.64 111.76 0)
 		(unit 1)
@@ -10778,6 +10674,110 @@
 				(path "/54787df0-1b8c-465f-acae-f55ec7f02da3/c6a0d4a9-2340-4a27-802f-10b03153dcd5"
 					(reference "#PWR097")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS08")
+		(at 233.68 171.45 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "978eea38-adc8-4c9a-a201-8f7f3216d262")
+		(property "Reference" "U6"
+			(at 233.6717 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHC08"
+			(at 233.6717 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 233.68 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+			(at 233.68 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad And2"
+			(at 233.68 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d611d571-20c4-4444-88c5-0ff3aa8a8cf1")
+		)
+		(pin "9"
+			(uuid "c6cc6932-6a89-4a87-8a1d-9250d7d59f75")
+		)
+		(pin "4"
+			(uuid "718b9646-4d19-482c-b6dd-8cbc74dadb77")
+		)
+		(pin "3"
+			(uuid "a4c8e489-8524-4248-8513-2caa2ea81baf")
+		)
+		(pin "2"
+			(uuid "52218bd4-9e54-43b3-95b9-ab1ce5134263")
+		)
+		(pin "8"
+			(uuid "ff29bdf4-07a8-4a9a-824b-3a9297138882")
+		)
+		(pin "5"
+			(uuid "5ffdc060-6a71-43e3-bcec-e244e62afdd5")
+		)
+		(pin "6"
+			(uuid "f506f523-fd29-4e05-89cc-7dc7e09a4381")
+		)
+		(pin "10"
+			(uuid "0f8bb234-eddc-4a1c-b385-a2cf0b20659c")
+		)
+		(pin "13"
+			(uuid "18ff2497-d6a2-4a31-a456-37216923667d")
+		)
+		(pin "7"
+			(uuid "14aa113c-cac2-42bb-a208-092f235816e6")
+		)
+		(pin "14"
+			(uuid "90db57f5-3503-4ad3-8108-1ace93b677ee")
+		)
+		(pin "12"
+			(uuid "d22c5110-25b8-4a1d-980e-330cc053cab4")
+		)
+		(pin "11"
+			(uuid "06ed95a2-65dc-4830-a2dd-9c73b640c05d")
+		)
+		(instances
+			(project "ns32k"
+				(path "/54787df0-1b8c-465f-acae-f55ec7f02da3/c6a0d4a9-2340-4a27-802f-10b03153dcd5"
+					(reference "U6")
+					(unit 4)
 				)
 			)
 		)
