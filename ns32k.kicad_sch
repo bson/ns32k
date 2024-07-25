@@ -20370,6 +20370,7 @@
 	)
 	(label "ST3"
 		(at 213.36 72.39 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20699,6 +20700,7 @@
 	)
 	(label "~{PAV}"
 		(at 210.82 72.39 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22535,6 +22537,7 @@
 	)
 	(label "ST0"
 		(at 218.44 72.39 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22655,6 +22658,7 @@
 	)
 	(label "ST2"
 		(at 215.9 72.39 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

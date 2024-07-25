@@ -1,8 +1,13 @@
 Forward-looking branch for Rev 2
 
-Changes:
+To do:
 
-* Directly support INTA/RETI CPU cycles for ICU reads
 * Reset button
+* Diag jumper
 * Ethernet
 * Layout improvements (shift TCU, fit XO)
+
+Done:
+
+* Directly support INTA/RETI CPU cycles for ICU reads
+* Fix VUSB divider error

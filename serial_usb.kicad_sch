@@ -4061,16 +4061,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 148.59) (xy 264.16 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31bd9fb7-e392-46c9-8fbd-ff192497dbc0")
-	)
-	(wire
-		(pts
 			(xy 210.82 147.32) (xy 219.71 147.32)
 		)
 		(stroke
@@ -4101,7 +4091,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 151.13) (xy 252.73 151.13)
+			(xy 264.16 151.13) (xy 261.62 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4578,6 +4568,16 @@
 			(type default)
 		)
 		(uuid "8a2e8df1-3b95-4a4d-a082-984bc478535b")
+	)
+	(wire
+		(pts
+			(xy 256.54 151.13) (xy 252.73 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e8a9dba-78e6-430d-8524-8927798182fb")
 	)
 	(wire
 		(pts
@@ -8051,7 +8051,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "47.5k"
 			(at 261.62 157.4799 0)
 			(effects
 				(font
@@ -8174,8 +8174,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 264.16 146.05 0)
-		(mirror y)
+		(at 259.08 151.13 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8183,7 +8183,7 @@
 		(dnp no)
 		(uuid "dc8ded1b-6408-49a9-813d-729943358bd6")
 		(property "Reference" "R24"
-			(at 261.62 144.7799 0)
+			(at 257.81 145.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8191,8 +8191,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "24k"
-			(at 261.62 147.3199 0)
+		(property "Value" "22.1k"
+			(at 257.81 148.082 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8201,7 +8201,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 264.16 146.05 0)
+			(at 259.08 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8210,7 +8210,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 146.05 0)
+			(at 259.08 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8219,7 +8219,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 264.16 146.05 0)
+			(at 259.08 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8310,71 +8310,6 @@
 			(project "ns32k"
 				(path "/54787df0-1b8c-465f-acae-f55ec7f02da3/88416a49-920c-402a-9500-7be871f57ef4"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 264.16 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dfb71006-f78e-485c-bc87-afeb1b7a03da")
-		(property "Reference" "#PWR068"
-			(at 264.16 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 264.16 139.954 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.16 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 264.16 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0beca50e-a961-4a94-add2-84f9cd441ccc")
-		)
-		(instances
-			(project "ns32k"
-				(path "/54787df0-1b8c-465f-acae-f55ec7f02da3/88416a49-920c-402a-9500-7be871f57ef4"
-					(reference "#PWR068")
 					(unit 1)
 				)
 			)
