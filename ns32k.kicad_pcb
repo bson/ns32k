@@ -5661,6 +5661,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/3d/3D-RJMG1UD3B8K1ANR.STEP"
+			(offset
+				(xyz 4.5 4.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Diode_SMD:D_0603_1608Metric"
 		(layer "F.Cu")
