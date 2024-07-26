@@ -9184,6 +9184,12 @@
 		(uuid "d77cb50f-a40d-4480-a9f4-3f1bf40168c3")
 	)
 	(junction
+		(at 293.37 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0f9f702-95a8-468c-862d-6d1761392da5")
+	)
+	(junction
 		(at 30.48 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9220,10 +9226,6 @@
 	(no_connect
 		(at 247.65 36.83)
 		(uuid "484dee62-c413-4f47-9bd2-d82d5b296311")
-	)
-	(no_connect
-		(at 336.55 90.17)
-		(uuid "51a8e1f8-e928-4d91-9c4f-ea998f680547")
 	)
 	(no_connect
 		(at 336.55 87.63)
@@ -12169,6 +12171,16 @@
 		)
 		(uuid "017fbbef-ba60-40f6-bf6a-a0edea2e2dbf")
 	)
+	(wire
+		(pts
+			(xy 336.55 90.17) (xy 381 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0216e35a-1beb-4bc1-8227-d2351224864b")
+	)
 	(bus
 		(pts
 			(xy 82.55 76.2) (xy 91.44 76.2)
@@ -13178,6 +13190,16 @@
 			(type default)
 		)
 		(uuid "1bdd9acd-a8a9-4d61-b473-94bb95af94ac")
+	)
+	(bus
+		(pts
+			(xy 293.37 186.69) (xy 327.66 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bfebb14-a194-4a7e-9c7d-a366ea7231fa")
 	)
 	(wire
 		(pts
@@ -14201,7 +14223,7 @@
 	)
 	(bus
 		(pts
-			(xy 293.37 168.91) (xy 293.37 198.12)
+			(xy 293.37 168.91) (xy 293.37 186.69)
 		)
 		(stroke
 			(width 0)
@@ -16439,6 +16461,16 @@
 		)
 		(uuid "7aa7203f-1712-4aec-b3e6-bd54a03b0881")
 	)
+	(bus
+		(pts
+			(xy 293.37 186.69) (xy 293.37 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab67a7c-637c-4664-a898-175b749b36cc")
+	)
 	(wire
 		(pts
 			(xy 100.33 59.69) (xy 93.98 59.69)
@@ -16608,6 +16640,16 @@
 			(type default)
 		)
 		(uuid "7ebc138c-3a97-4e1a-8328-8cc301034ac7")
+	)
+	(wire
+		(pts
+			(xy 381 184.15) (xy 372.11 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ec6fe3e-32b6-43db-97a9-3cbd5fda4f22")
 	)
 	(bus
 		(pts
@@ -17328,6 +17370,16 @@
 			(type default)
 		)
 		(uuid "93dcf536-220b-4077-920c-ab93a11ab5b8")
+	)
+	(wire
+		(pts
+			(xy 381 90.17) (xy 381 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94795181-a67d-4b68-a446-446dad14f0b2")
 	)
 	(bus
 		(pts
@@ -33010,6 +33062,74 @@
 				(path "/54787df0-1b8c-465f-acae-f55ec7f02da3"
 					(reference "R3")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 327.66 179.07)
+		(size 44.45 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5cf61693-5c3d-421d-8ff1-ac6ea4c49cfe")
+		(property "Sheetname" "Ethernet"
+			(at 327.66 178.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethernet.kicad_sch"
+			(at 327.66 194.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{INT_ETH}" input
+			(at 372.11 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "920e5eba-d3da-427c-9bdb-1b9d88fcbb6f")
+		)
+		(pin "{~{ETH},~{RD33},~{WR33},D[0..15],PA[0..24]}" input
+			(at 327.66 186.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2fbb7168-8339-486f-9783-79dc941d8e8e")
+		)
+		(pin "~{RESET}" input
+			(at 365.76 194.31 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c025236d-8d28-4857-9ccd-9a4524c27917")
+		)
+		(instances
+			(project "ns32k"
+				(path "/54787df0-1b8c-465f-acae-f55ec7f02da3"
+					(page "5")
 				)
 			)
 		)
