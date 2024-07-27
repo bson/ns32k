@@ -6120,6 +6120,7 @@
 	)
 	(label "PA1"
 		(at 115.57 199.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
