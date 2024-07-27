@@ -7923,7 +7923,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 101.6 88.9 0)
 			(effects
 				(font
@@ -10686,7 +10686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 111.76 81.28 0)
 			(effects
 				(font
