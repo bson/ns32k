@@ -9207,6 +9207,12 @@
 		(color 0 0 0 0)
 		(uuid "f7959d5c-263e-4d7b-b6ac-a8f19d533d7d")
 	)
+	(junction
+		(at 257.81 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb819e03-73cb-41a6-8148-7c2c04428df6")
+	)
 	(no_connect
 		(at 247.65 41.91)
 		(uuid "066e26cd-5c2f-4cb8-aa6d-34c0975df14a")
@@ -14213,7 +14219,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 44.45) (xy 247.65 44.45)
+			(xy 257.81 44.45) (xy 255.27 44.45)
 		)
 		(stroke
 			(width 0)
@@ -16083,7 +16089,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 34.29) (xy 266.7 34.29)
+			(xy 264.16 34.29) (xy 266.7 34.29)
 		)
 		(stroke
 			(width 0)
@@ -17681,6 +17687,16 @@
 		)
 		(uuid "98d01182-7f1b-4e6a-9e3e-843bc5431aa8")
 	)
+	(wire
+		(pts
+			(xy 257.81 34.29) (xy 257.81 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "992f52c6-9262-43f7-adea-1a05793433da")
+	)
 	(bus
 		(pts
 			(xy 187.96 246.38) (xy 190.5 246.38)
@@ -17950,6 +17966,16 @@
 			(type default)
 		)
 		(uuid "a271b9d4-75f8-4ff3-93c0-08f6e1af97da")
+	)
+	(wire
+		(pts
+			(xy 257.81 25.4) (xy 257.81 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e2a329-67f2-4144-992c-47e9338b42b7")
 	)
 	(wire
 		(pts
@@ -18910,6 +18936,16 @@
 			(type default)
 		)
 		(uuid "c385c8ba-71ea-42df-93c0-66afe80ccce7")
+	)
+	(wire
+		(pts
+			(xy 250.19 44.45) (xy 247.65 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3fc8cff-0a05-4375-afe1-4ac4efd23d55")
 	)
 	(wire
 		(pts
@@ -21398,7 +21434,7 @@
 		(uuid "1f710292-b548-49e2-aa0d-0d2a7f31d9c0")
 	)
 	(label "~{ICU}"
-		(at 260.35 34.29 0)
+		(at 264.16 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -30386,6 +30422,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 257.81 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5485497b-c221-4440-98a0-94bfebbf5142")
+		(property "Reference" "#PWR0149"
+			(at 257.81 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 257.81 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 257.81 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e67631fb-dd63-4f8b-a4a6-b30f246bc705")
+		)
+		(instances
+			(project ""
+				(path "/54787df0-1b8c-465f-acae-f55ec7f02da3"
+					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 377.19 82.55 0)
 		(unit 1)
@@ -30678,6 +30780,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 257.81 31.75 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "6cf4994e-d86f-4d18-ae68-e01b36e7e42b")
+		(property "Reference" "R40"
+			(at 255.27 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 255.27 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 257.81 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 257.81 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97c9cb54-be36-41ce-a931-d44342bdd010")
+		)
+		(pin "2"
+			(uuid "bd983c63-2e41-41a8-a22f-289da378853b")
+		)
+		(instances
+			(project "ns32k"
+				(path "/54787df0-1b8c-465f-acae-f55ec7f02da3"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 232.41 68.58 0)
 		(mirror y)
@@ -30935,6 +31107,74 @@
 			(project "ns32k"
 				(path "/54787df0-1b8c-465f-acae-f55ec7f02da3"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 252.73 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b05a914-a9dd-4daf-b682-d748fed4a6d0")
+		(property "Reference" "R39"
+			(at 252.73 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 252.73 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 252.73 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 252.73 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4aaeec2d-c386-49e8-b2fa-4240e411bdea")
+		)
+		(pin "2"
+			(uuid "d4c5601f-84d8-4614-94ef-59912d89aa88")
+		)
+		(instances
+			(project "ns32k"
+				(path "/54787df0-1b8c-465f-acae-f55ec7f02da3"
+					(reference "R39")
 					(unit 1)
 				)
 			)
