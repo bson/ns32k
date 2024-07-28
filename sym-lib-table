@@ -9,4 +9,5 @@
   (lib (name "74AHC245")(type "KiCad")(uri "${KIPRJMOD}/74AHC245.kicad_sym")(options "")(descr ""))
   (lib (name "74AHC138")(type "KiCad")(uri "${KIPRJMOD}/74AHC138.kicad_sym")(options "")(descr ""))
   (lib (name "CP2102N")(type "KiCad")(uri "${KIPRJMOD}/CP2102N.kicad_sym")(options "")(descr ""))
+  (lib (name "KSZ8851")(type "KiCad")(uri "${KIPRJMOD}/KSZ8851.kicad_sym")(options "")(descr ""))
 )
