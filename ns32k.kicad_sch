@@ -13237,7 +13237,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 212.09) (xy 359.41 194.31)
+			(xy 359.41 194.31) (xy 359.41 218.44)
 		)
 		(stroke
 			(width 0)
@@ -16574,16 +16574,6 @@
 			(type default)
 		)
 		(uuid "5d3b2f82-4bc6-4eff-bf84-4e3911c95f10")
-	)
-	(wire
-		(pts
-			(xy 365.76 212.09) (xy 359.41 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d9a545a-8ded-4af4-914f-27f9f90405bf")
 	)
 	(wire
 		(pts
@@ -21265,16 +21255,6 @@
 		)
 		(uuid "e4dbb9bf-2199-4347-9d9e-cede2f76d7a6")
 	)
-	(wire
-		(pts
-			(xy 365.76 228.6) (xy 365.76 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e65cbe95-dbd9-4cd5-9963-830c451b70e6")
-	)
 	(bus
 		(pts
 			(xy 170.18 76.2) (xy 172.72 76.2)
@@ -22359,6 +22339,7 @@
 	)
 	(label "PA5"
 		(at 300.99 77.47 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22952,6 +22933,7 @@
 	)
 	(label "~{ICU}"
 		(at 298.45 57.15 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24689,6 +24671,7 @@
 	)
 	(label "~{ICU}"
 		(at 287.02 74.93 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24721,6 +24704,7 @@
 	)
 	(label "~{ICU}"
 		(at 232.41 158.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25149,6 +25133,7 @@
 	)
 	(label "~{DBE}"
 		(at 238.76 73.66 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -31855,10 +31840,10 @@
 			(uuid "b04d7777-0aed-4c6d-9a99-6efd68869778")
 		)
 		(pin "9"
-			(uuid "2fd45a87-f20a-40bb-a8ff-2240530fd97d")
+			(uuid "2fd45a87-f20a-40bb-a8ff-2240530fd97e")
 		)
 		(pin "8"
-			(uuid "3d5ee5fe-489c-469d-b034-c24ca687bf8a")
+			(uuid "3d5ee5fe-489c-469d-b034-c24ca687bf8b")
 		)
 		(pin "5"
 			(uuid "9aef2388-7ded-4276-b43a-95aea7f28a76")
@@ -31867,25 +31852,25 @@
 			(uuid "2861dcf1-d08a-434c-a3e3-c3091be2a926")
 		)
 		(pin "10"
-			(uuid "741e0688-5e9b-4a6b-9958-cea948c7c983")
+			(uuid "741e0688-5e9b-4a6b-9958-cea948c7c984")
 		)
 		(pin "3"
 			(uuid "7ebe3823-f152-40b3-90b0-c9fd6eb3b02e")
 		)
 		(pin "11"
-			(uuid "ca9b96bb-078d-4a4b-8820-ff98a33b19a8")
+			(uuid "ca9b96bb-078d-4a4b-8820-ff98a33b19a9")
 		)
 		(pin "12"
-			(uuid "bbada756-e0bd-4239-98e6-a7313a8fe645")
+			(uuid "bbada756-e0bd-4239-98e6-a7313a8fe646")
 		)
 		(pin "13"
-			(uuid "5ee44212-4a73-4b8a-a994-07d868d1090a")
+			(uuid "5ee44212-4a73-4b8a-a994-07d868d1090b")
 		)
 		(pin "14"
-			(uuid "5798220c-935f-4e36-bb27-6da261fa89f4")
+			(uuid "5798220c-935f-4e36-bb27-6da261fa89f5")
 		)
 		(pin "7"
-			(uuid "f9ef48b0-e174-437b-9bc4-66e644d05a07")
+			(uuid "f9ef48b0-e174-437b-9bc4-66e644d05a08")
 		)
 		(pin "1"
 			(uuid "c0db3dab-da1b-4b85-ab4a-814d0e8d0c77")
@@ -34855,7 +34840,7 @@
 		)
 	)
 	(sheet
-		(at 345.44 228.6)
+		(at 339.09 218.44)
 		(size 43.18 15.24)
 		(fields_autoplaced yes)
 		(stroke
@@ -34867,7 +34852,7 @@
 		)
 		(uuid "c6a0d4a9-2340-4a27-802f-10b03153dcd5")
 		(property "Sheetname" "Power, Reset, OSC"
-			(at 345.44 227.8884 0)
+			(at 339.09 217.7284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34876,7 +34861,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 345.44 244.4246 0)
+			(at 339.09 234.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34885,7 +34870,7 @@
 			)
 		)
 		(pin "~{RESET}" input
-			(at 365.76 228.6 90)
+			(at 359.41 218.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
