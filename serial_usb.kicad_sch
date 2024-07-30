@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "NS32016 Toy PCB")
-		(date "2024-07-24")
-		(rev "Rev 2")
+		(date "2024-07-30")
+		(rev "Rev 3")
 		(comment 1 "bson@rockgarden.net")
 		(comment 2 "Jan Brittenson")
 		(comment 3 "UART, USB VCP")
