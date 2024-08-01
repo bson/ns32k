@@ -1,4 +1,18 @@
-Forward-looking branch for Rev 2
+Rev4 Changes
+
+* Route the 32201 RSTI# to the general RESET# rather than RSTO#/ABT#. The
+  MMU will pull ABT# on page faults which will reset peripherals!
+* Invert RESET# and use it for the 16C550, there should be space for a 1G inverter.
+
+
+
+Rev3 Changes
+
+* Fix ICU addressing to use PA1-P6 instead of PA0-PA5.  The latter can't work!
+
+
+
+Rev2 changes
 
 * Ethernet
 * Addressable support for INTA/RETI ICU reads
