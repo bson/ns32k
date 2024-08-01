@@ -8999,7 +8999,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "1k"
 			(at 87.63 137.1599 0)
 			(effects
 				(font
@@ -11046,7 +11046,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2µF"
+		(property "Value" "0.1µF"
 			(at 87.63 148.5962 0)
 			(effects
 				(font
@@ -11055,7 +11055,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 85.09 147.32 0)
 			(effects
 				(font

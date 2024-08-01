@@ -3,14 +3,21 @@ Rev4 Changes
 * Route the 32201 RSTI# to the general RESET# rather than RSTO#/ABT#. The
   MMU will pull ABT# on page faults which will reset peripherals!
 * Invert RESET# and use it for the 16C550, there should be space for a 1G inverter.
+* Change RESET RC to 0.1uF and 1k, cap to 0402
 
-
+====================
 
 Rev3 Changes
 
 * Fix ICU addressing to use PA1-P6 instead of PA0-PA5.  The latter can't work!
 
+Workarounds:
 
+* Cut reset to KSZ8851-16MLL and bodge it to the RESET switch
+* Replace 2.2uF cap with 0.1uF (0603) and resistor with 1k (0402)
+
+
+====================
 
 Rev2 changes
 
