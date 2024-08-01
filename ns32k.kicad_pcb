@@ -8,8 +8,8 @@
 	)
 	(paper "USLetter")
 	(title_block
-		(date "2024-07-30")
-		(rev "3")
+		(date "2024-08-01")
+		(rev "4")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -40314,7 +40314,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "NS32k Toy\nRev 3  07/2024\nbson@rockgarden.net"
+	(gr_text "NS32k Toy\nRev 4  08/2024\nbson@rockgarden.net"
 		(at 190.5508 134.9248 90)
 		(layer "F.SilkS")
 		(uuid "2cc77f30-5dd3-479a-96d5-d8275baf075b")
