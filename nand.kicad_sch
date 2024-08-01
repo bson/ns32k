@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "NS32016 Toy PCB")
-		(date "2024-07-30")
-		(rev "Rev 3")
+		(date "2024-08-01")
+		(rev "Rev 4")
 		(comment 1 "bson@rockgarden.net")
 		(comment 2 "Jan Brittenson")
 		(comment 3 "NAND Flash")

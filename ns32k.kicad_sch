@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "NS32016 Toy PCB")
-		(date "2024-07-30")
-		(rev "Rev 3")
+		(date "2024-08-01")
+		(rev "Rev 4")
 		(comment 1 "bson@rockgarden.net")
 		(comment 2 "Jan Brittenson")
 		(comment 3 "Power, NS32k Clock, Reset")
@@ -9912,6 +9912,12 @@
 		(uuid "0143414c-0272-47c7-b2d4-01a78a149c8d")
 	)
 	(junction
+		(at 359.41 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07e54033-13a2-467a-a339-d91df2ec7f4f")
+	)
+	(junction
 		(at 278.13 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13237,7 +13243,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 194.31) (xy 359.41 218.44)
+			(xy 359.41 194.31) (xy 359.41 203.2)
 		)
 		(stroke
 			(width 0)
@@ -13704,6 +13710,16 @@
 			(type default)
 		)
 		(uuid "11b762d7-d3ac-4ac6-8568-269b03968060")
+	)
+	(wire
+		(pts
+			(xy 375.92 203.2) (xy 359.41 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11ba78f3-02b3-438e-b8a8-aaa3b803cd34")
 	)
 	(bus
 		(pts
@@ -14667,7 +14683,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 110.49) (xy 355.6 110.49)
+			(xy 378.46 109.22) (xy 355.6 109.22)
 		)
 		(stroke
 			(width 0)
@@ -15427,6 +15443,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 128.27) (xy 375.92 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c9645ee-0aa0-4d86-a6d9-343e2da3b089")
+	)
+	(wire
+		(pts
 			(xy 219.71 158.75) (xy 219.71 161.29)
 		)
 		(stroke
@@ -16057,7 +16083,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 147.32) (xy 377.19 147.32)
+			(xy 370.84 147.32) (xy 378.46 147.32)
 		)
 		(stroke
 			(width 0)
@@ -16364,6 +16390,16 @@
 			(type default)
 		)
 		(uuid "57502fbc-7ae5-4889-9de9-3ad1ce1d98c7")
+	)
+	(wire
+		(pts
+			(xy 375.92 128.27) (xy 375.92 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "575de090-a58c-4df9-8c64-c4292b1bf8d1")
 	)
 	(wire
 		(pts
@@ -17557,6 +17593,16 @@
 	)
 	(wire
 		(pts
+			(xy 359.41 203.2) (xy 359.41 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79cdef16-7d3f-48ba-840f-8c30e010c510")
+	)
+	(wire
+		(pts
 			(xy 306.07 41.91) (xy 306.07 92.71)
 		)
 		(stroke
@@ -18407,7 +18453,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 72.39) (xy 360.68 102.87)
+			(xy 360.68 72.39) (xy 360.68 104.14)
 		)
 		(stroke
 			(width 0)
@@ -19147,7 +19193,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 102.87) (xy 383.54 187.96)
+			(xy 383.54 104.14) (xy 383.54 187.96)
 		)
 		(stroke
 			(width 0)
@@ -19287,7 +19333,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 147.32) (xy 377.19 110.49)
+			(xy 378.46 147.32) (xy 378.46 109.22)
 		)
 		(stroke
 			(width 0)
@@ -20627,7 +20673,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 102.87) (xy 383.54 102.87)
+			(xy 360.68 104.14) (xy 383.54 104.14)
 		)
 		(stroke
 			(width 0)
@@ -21207,7 +21253,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 110.49) (xy 355.6 90.17)
+			(xy 355.6 109.22) (xy 355.6 90.17)
 		)
 		(stroke
 			(width 0)
@@ -34716,7 +34762,7 @@
 	)
 	(sheet
 		(at 327.66 118.11)
-		(size 42.545 13.335)
+		(size 43.18 13.335)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -34763,6 +34809,16 @@
 				(justify left)
 			)
 			(uuid "8d40f1f6-00e5-4057-9e7f-32da28940a75")
+		)
+		(pin "~{RESET}" input
+			(at 370.84 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a25aed8c-0e3a-4474-97c1-f377de610b65")
 		)
 		(instances
 			(project "ns32k"
