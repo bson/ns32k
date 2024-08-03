@@ -148,6 +148,128 @@
 				)
 			)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MT29F8G08:MT29F8G08"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1321,6 +1443,12 @@
 		(uuid "81bca6f1-2329-4155-8aa2-d68f125970ce")
 	)
 	(junction
+		(at 149.86 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1b6177a-39e2-4941-9e0f-0d13e09da25b")
+	)
+	(junction
 		(at 184.15 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1541,7 +1669,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 115.57) (xy 160.02 115.57)
+			(xy 124.46 115.57) (xy 149.86 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1588,6 +1716,16 @@
 			(type default)
 		)
 		(uuid "3b745a68-da0b-4ae2-b2cb-796690002c4b")
+	)
+	(wire
+		(pts
+			(xy 149.86 105.41) (xy 149.86 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41def65b-9429-4776-a8b1-74778cdeb2d2")
 	)
 	(wire
 		(pts
@@ -1849,6 +1987,16 @@
 		)
 		(uuid "b39f8422-e418-4e0f-b8ab-c407adf5e2df")
 	)
+	(wire
+		(pts
+			(xy 149.86 111.76) (xy 149.86 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b87442bb-3d10-4904-8e49-5e389fef6e10")
+	)
 	(bus
 		(pts
 			(xy 154.94 128.27) (xy 154.94 130.81)
@@ -1858,6 +2006,16 @@
 			(type default)
 		)
 		(uuid "ba415ae6-98d9-435d-9501-3057fff788b1")
+	)
+	(wire
+		(pts
+			(xy 149.86 115.57) (xy 160.02 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4771d01-7d4c-4cbc-b61b-c0a6bcb1c357")
 	)
 	(wire
 		(pts
@@ -2617,6 +2775,142 @@
 			(project ""
 				(path "/54787df0-1b8c-465f-acae-f55ec7f02da3/bf4bb805-a9c2-47a8-9dba-461cccb7b358"
 					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 149.86 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f76bab5-2a74-4f1c-a6af-ec4906d7ad64")
+		(property "Reference" "#PWR0153"
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 149.86 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 149.86 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37f9a590-54bc-4554-a751-e11dff84c038")
+		)
+		(instances
+			(project "ns32k"
+				(path "/54787df0-1b8c-465f-acae-f55ec7f02da3/bf4bb805-a9c2-47a8-9dba-461cccb7b358"
+					(reference "#PWR0153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 149.86 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ec070cb-d656-4e12-82db-b224ee9b5720")
+		(property "Reference" "R13"
+			(at 152.4 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 152.4 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faf52511-a0ae-4605-a808-b709df76e20c")
+		)
+		(pin "2"
+			(uuid "1dc725a2-cc70-44b2-8976-914e6303e75b")
+		)
+		(instances
+			(project "ns32k"
+				(path "/54787df0-1b8c-465f-acae-f55ec7f02da3/bf4bb805-a9c2-47a8-9dba-461cccb7b358"
+					(reference "R13")
 					(unit 1)
 				)
 			)
