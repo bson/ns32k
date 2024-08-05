@@ -864,7 +864,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "1k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "a365bf2d-1ce5-46e5-8fd2-f83174b1e409")
@@ -4753,7 +4753,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2µF"
+		(property "Value" "0.1µF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "a33e0b48-2599-4a7a-886a-d188d407281f")

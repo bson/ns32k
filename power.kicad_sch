@@ -9009,7 +9009,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "1k"
 			(at 50.8 133.3499 0)
 			(effects
 				(font
@@ -11056,7 +11056,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2µF"
+		(property "Value" "0.1µF"
 			(at 50.8 144.7862 0)
 			(effects
 				(font
