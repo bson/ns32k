@@ -1,5 +1,13 @@
 Rev4 Changes
 
+To do:
+
+* Ethernet 49.9 resistors see +/- 2.5V, which means they dissipate
+  1/8W. We can't use 1/16W 0402 resistors here.  These get warm, so
+  maybe use larget 1/2W parts here.
+
+Done:
+
 * Route the 32201 RSTI# to the general RESET# rather than RSTO#/ABT#. The
   MMU will pull ABT# on page faults which will reset peripherals!
 * Invert RESET# and use it for the 16C550, there should be space for a 1G inverter.
