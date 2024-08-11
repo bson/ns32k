@@ -497,7 +497,7 @@
       "idf": "",
       "netlist": "",
       "plot": "gerbers/",
-      "pos_files": "",
+      "pos_files": "bom/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -507,7 +507,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "bom/rev4.csv",
+    "bom_export_filename": "bom/lcsc_rev4.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -580,7 +580,7 @@
           "group_by": false,
           "label": "Part",
           "name": "Part",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,

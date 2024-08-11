@@ -8562,7 +8562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7.3728MHz"
+		(property "Value" "7.3728MHz DNP"
 			(at 174.244 194.564 0)
 			(effects
 				(font
@@ -8900,7 +8900,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3V3 Serial"
+		(property "Value" "3V3 Serial DNP"
 			(at 288.29 101.5999 0)
 			(effects
 				(font

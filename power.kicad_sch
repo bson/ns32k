@@ -9618,7 +9618,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NS32202"
+		(property "Value" "NS32202 DNP"
 			(at 133.096 199.898 0)
 			(effects
 				(font
@@ -10435,7 +10435,7 @@
 				)
 			)
 		)
-		(property "Value" "NS32016"
+		(property "Value" "NS32016 DNP"
 			(at 200.914 124.714 0)
 			(effects
 				(font
@@ -11374,7 +11374,7 @@
 				)
 			)
 		)
-		(property "Value" "LM3671"
+		(property "Value" "LM3671 3.3V"
 			(at 242.57 48.26 0)
 			(effects
 				(font
@@ -11754,7 +11754,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NS32082"
+		(property "Value" "NS32082 DNP"
 			(at 201.168 198.628 0)
 			(effects
 				(font
@@ -12157,7 +12157,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2µH"
+		(property "Value" "2.2uH 70MHz+ 1A+ 0.5Ω-"
 			(at 259.08 45.212 90)
 			(effects
 				(font
@@ -12200,7 +12200,7 @@
 				)
 			)
 		)
-		(property "Part" "2.2uH 70MHz+ 1A+ 0.5Ω-"
+		(property "Part" ""
 			(at 259.08 49.7332 90)
 			(effects
 				(font
@@ -12250,7 +12250,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V SUPPLY"
+		(property "Value" "+5V SUPPLY DNP"
 			(at 117.475 49.53 0)
 			(effects
 				(font
@@ -13071,7 +13071,7 @@
 				)
 			)
 		)
-		(property "Part" "FH1200001"
+		(property "Part" ""
 			(at 142.24 99.06 0)
 			(effects
 				(font
@@ -14264,7 +14264,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22µF 25V X5R"
+		(property "Value" "22µF 25V"
 			(at 269.24 59.69 0)
 			(effects
 				(font

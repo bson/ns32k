@@ -6328,7 +6328,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "49.9 1/2W"
+		(property "Value" "49.9 1/4W+"
 			(at 181.61 220.9799 0)
 			(effects
 				(font
@@ -6978,7 +6978,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "49.9 1/2W"
+		(property "Value" "49.9 1/4W+"
 			(at 187.96 203.1999 0)
 			(effects
 				(font
@@ -7057,7 +7057,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "49.9 1/2W"
+		(property "Value" "49.9 1/4W+"
 			(at 191.77 220.9799 0)
 			(effects
 				(font
@@ -7282,7 +7282,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "MMZ1005D330C"
+		(property "Value" "330 @ 100"
 			(at 179.07 49.568 0)
 			(effects
 				(font
@@ -7603,7 +7603,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "MMZ1005D330C"
+		(property "Value" "330 @ 100"
 			(at 116.84 30.518 0)
 			(effects
 				(font
@@ -8024,7 +8024,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148 etc"
 			(at 101.6 85.09 0)
 			(effects
 				(font
@@ -8792,7 +8792,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "49.9 1/2W"
+		(property "Value" "49.9 1/4W+"
 			(at 176.53 203.1999 0)
 			(effects
 				(font
@@ -8980,7 +8980,7 @@
 				)
 			)
 		)
-		(property "Part" "ECS-250-18-33-JGN-TR3"
+		(property "Part" ""
 			(at 229.87 134.112 90)
 			(effects
 				(font
@@ -10771,7 +10771,7 @@
 				)
 			)
 		)
-		(property "Value" "RJ45"
+		(property "Value" "RJ45 DNP"
 			(at 233.68 193.04 0)
 			(effects
 				(font
@@ -10888,7 +10888,7 @@
 				)
 			)
 		)
-		(property "Value" "MMZ1005D330C"
+		(property "Value" "330 @ 100"
 			(at 280.7081 57.15 90)
 			(effects
 				(font
@@ -10966,7 +10966,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148 etc"
 			(at 114.3 82.5499 90)
 			(effects
 				(font

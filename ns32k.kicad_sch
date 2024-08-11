@@ -25971,7 +25971,7 @@
 				)
 			)
 		)
-		(property "Value" "NS32016"
+		(property "Value" "NS32016 DNP"
 			(at 59.69 109.22 0)
 			(effects
 				(font
@@ -26176,7 +26176,7 @@
 				)
 			)
 		)
-		(property "Value" "NS32082"
+		(property "Value" "NS32082 DNP"
 			(at 143.51 44.45 0)
 			(effects
 				(font
@@ -30271,7 +30271,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x04"
+		(property "Value" "SW_DIP_x04 300w/50p mil"
 			(at 388.62 29.21 0)
 			(effects
 				(font
@@ -30787,7 +30787,7 @@
 				)
 			)
 		)
-		(property "Value" "MX29LV040C"
+		(property "Value" "MX29LV040C DNP"
 			(at 253.492 213.868 0)
 			(effects
 				(font
@@ -31564,7 +31564,7 @@
 				)
 			)
 		)
-		(property "Value" "MX29LV040C"
+		(property "Value" "MX29LV040C DNP"
 			(at 166.878 213.868 0)
 			(effects
 				(font
@@ -33247,7 +33247,7 @@
 				)
 			)
 		)
-		(property "Value" "NS32202"
+		(property "Value" "NS32202 DNP"
 			(at 328.93 72.644 0)
 			(effects
 				(font
