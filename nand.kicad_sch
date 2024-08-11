@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "NS32016 Toy PCB")
-		(date "2024-08-01")
+		(date "2024-08-10")
 		(rev "Rev 4")
 		(comment 1 "bson@rockgarden.net")
 		(comment 2 "Jan Brittenson")
@@ -2561,6 +2561,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C400999"
+			(at 180.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "00d2c085-bfc1-4d45-bb05-9218bd5b01a2")
 		)
@@ -2901,6 +2910,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C380746"
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "faf52511-a0ae-4605-a808-b709df76e20c")
 		)
@@ -3037,6 +3055,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C466613"
+			(at 187.96 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a4c4520-618e-4b5d-b199-30a8b446ca2d")
 		)
@@ -3165,6 +3192,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 172.72 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C466613"
 			(at 172.72 101.6 0)
 			(effects
 				(font

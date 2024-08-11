@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "NS32016 Toy PCB")
-		(date "2024-08-01")
+		(date "2024-08-10")
 		(rev "Rev 4")
 		(comment 1 "bson@rockgarden.net")
 		(comment 2 "Jan Brittenson")
@@ -6086,6 +6086,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C478865"
+			(at 198.12 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b232cbf-fd7a-4132-a0b4-3680fc951504")
 		)
@@ -6354,6 +6363,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C466613"
+			(at 165.1 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "002fcdbf-c509-41f9-8ebb-765c38076c34")
 		)
@@ -6480,6 +6498,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 190.5 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C478865"
 			(at 190.5 166.37 0)
 			(effects
 				(font
@@ -6682,6 +6709,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 171.45 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2183219"
 			(at 171.45 200.66 0)
 			(effects
 				(font
@@ -6956,6 +6992,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5246833"
+			(at 198.12 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a64d36ef-79a1-4404-b366-a8644b6e15cc")
 		)
@@ -7018,6 +7063,15 @@
 			)
 		)
 		(property "Description" "USB to UART master bridge, QFN-20"
+			(at 232.41 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C969913"
 			(at 232.41 167.64 0)
 			(effects
 				(font
@@ -7139,6 +7193,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42754"
 			(at 163.83 151.13 0)
 			(effects
 				(font
@@ -7354,6 +7417,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C466613"
+			(at 130.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b535398a-0c49-401f-a6c9-820ee24069e2")
 		)
@@ -7479,6 +7551,15 @@
 			)
 		)
 		(property "Description" "74AHC1G04, Single NOT Gate, Low-Voltage CMOS"
+			(at 147.32 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C352954"
 			(at 147.32 76.2 0)
 			(effects
 				(font
@@ -7626,6 +7707,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C328306"
+			(at 165.1 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0accc049-4919-4f14-b8af-8ee6d1f2bec2")
 		)
@@ -7761,6 +7851,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2226854"
+			(at 219.71 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0858430c-a9fb-4ac7-b4ee-1ed4690de9ce")
 		)
@@ -7822,6 +7921,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 172.72 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42754"
 			(at 172.72 60.96 0)
 			(effects
 				(font
@@ -8104,6 +8212,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2183219"
+			(at 158.75 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a74e5df8-a671-4821-ab88-3e5c1a07e2ae")
 		)
@@ -8166,6 +8283,15 @@
 			)
 		)
 		(property "Description" "TVS Diode Array, 5.5V Standoff, 3 Channels, SOT-143 package"
+			(at 265.43 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5337181"
 			(at 265.43 182.88 0)
 			(effects
 				(font
@@ -8242,6 +8368,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 190.5 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5246833"
 			(at 190.5 173.99 0)
 			(effects
 				(font
@@ -8377,6 +8512,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 201.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C375970"
 			(at 201.93 137.16 0)
 			(effects
 				(font
@@ -8556,6 +8700,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C466613"
+			(at 224.79 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6b950af7-1cc4-4781-9809-d5807059b553")
 		)
@@ -8617,6 +8770,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 264.16 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3015870"
 			(at 264.16 156.21 0)
 			(effects
 				(font
@@ -8687,6 +8849,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 259.08 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2929993"
 			(at 259.08 151.13 0)
 			(effects
 				(font
@@ -8904,6 +9075,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2909599"
+			(at 308.61 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1"
 			(uuid "e1cb9aa1-2ae6-464f-9feb-8e6748f28311")
 		)
@@ -9011,6 +9191,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 246.38 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C375970"
 			(at 246.38 138.43 0)
 			(effects
 				(font
@@ -9288,6 +9477,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C384321"
+			(at 289.56 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b185d7e8-2efb-4a78-b94e-ff47aa79bc4c")
 		)
@@ -9350,6 +9548,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 280.67 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C384321"
 			(at 280.67 180.34 0)
 			(effects
 				(font
