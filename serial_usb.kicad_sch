@@ -6086,7 +6086,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C478865"
+		(property "LCSC" "C850820"
 			(at 198.12 166.37 0)
 			(effects
 				(font
@@ -6363,7 +6363,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C466613"
+		(property "LCSC" "C3012376"
 			(at 165.1 40.64 0)
 			(effects
 				(font
@@ -6506,7 +6506,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C478865"
+		(property "LCSC" "C850820"
 			(at 190.5 166.37 0)
 			(effects
 				(font
@@ -6717,7 +6717,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2183219"
+		(property "LCSC" "C1852854"
 			(at 171.45 200.66 0)
 			(effects
 				(font
@@ -7201,7 +7201,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C42754"
+		(property "LCSC" "C2653190"
 			(at 163.83 151.13 0)
 			(effects
 				(font
@@ -7417,7 +7417,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C466613"
+		(property "LCSC" "C3012376"
 			(at 130.81 60.96 0)
 			(effects
 				(font
@@ -7559,7 +7559,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C352954"
+		(property "LCSC" "C22384791"
 			(at 147.32 76.2 0)
 			(effects
 				(font
@@ -7707,7 +7707,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C328306"
+		(property "LCSC" "C4334825"
 			(at 165.1 185.42 0)
 			(effects
 				(font
@@ -7851,7 +7851,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2226854"
+		(property "LCSC" "C84718"
 			(at 219.71 128.27 0)
 			(effects
 				(font
@@ -7929,7 +7929,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C42754"
+		(property "LCSC" "C2653190"
 			(at 172.72 60.96 0)
 			(effects
 				(font
@@ -8212,7 +8212,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2183219"
+		(property "LCSC" "C1852854"
 			(at 158.75 200.66 0)
 			(effects
 				(font
@@ -8562,7 +8562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7.3728MHz DNP"
+		(property "Value" "7.3728MHz"
 			(at 174.244 194.564 0)
 			(effects
 				(font
@@ -8700,7 +8700,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C466613"
+		(property "LCSC" "C3012376"
 			(at 224.79 128.27 0)
 			(effects
 				(font
@@ -8900,7 +8900,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3V3 Serial DNP"
+		(property "Value" "3V3 Serial"
 			(at 288.29 101.5999 0)
 			(effects
 				(font

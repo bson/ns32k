@@ -10319,15 +10319,6 @@
 		(uuid "0dad867a-6fb4-410f-a2fa-ab50931e73e2")
 	)
 	(bus_entry
-		(at 254 246.38)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1092fb32-7b21-48a7-b6b3-8057d9d9647e")
-	)
-	(bus_entry
 		(at 270.51 246.38)
 		(size 2.54 -2.54)
 		(stroke
@@ -11604,15 +11595,6 @@
 			(type default)
 		)
 		(uuid "7a0e2ea8-fe40-4971-af9a-3dbc3b459c10")
-	)
-	(bus_entry
-		(at 203.2 246.38)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7debb8e5-b4fa-4006-a851-386e08d5e6a9")
 	)
 	(bus_entry
 		(at 124.46 167.64)
@@ -13103,7 +13085,7 @@
 	)
 	(bus
 		(pts
-			(xy 252.73 246.38) (xy 254 246.38)
+			(xy 252.73 246.38) (xy 255.27 246.38)
 		)
 		(stroke
 			(width 0)
@@ -14673,7 +14655,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 265.43) (xy 241.3 265.43)
+			(xy 265.43 266.7) (xy 260.35 266.7)
 		)
 		(stroke
 			(width 0)
@@ -15063,7 +15045,7 @@
 	)
 	(bus
 		(pts
-			(xy 196.85 246.38) (xy 203.2 246.38)
+			(xy 196.85 246.38) (xy 227.33 246.38)
 		)
 		(stroke
 			(width 0)
@@ -15363,7 +15345,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 275.59) (xy 223.52 276.86)
+			(xy 242.57 276.86) (xy 242.57 278.13)
 		)
 		(stroke
 			(width 0)
@@ -15743,7 +15725,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 254) (xy 223.52 255.27)
+			(xy 242.57 255.27) (xy 242.57 256.54)
 		)
 		(stroke
 			(width 0)
@@ -17263,16 +17245,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 248.92) (xy 256.54 265.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7043ae44-4424-4a9c-b071-37a3afb2b987")
-	)
-	(wire
-		(pts
 			(xy 312.42 80.01) (xy 314.96 80.01)
 		)
 		(stroke
@@ -17350,16 +17322,6 @@
 			(type default)
 		)
 		(uuid "72f7ce14-0e4c-409b-991c-6b54ba9d8bf1")
-	)
-	(bus
-		(pts
-			(xy 254 246.38) (xy 255.27 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "731d4af0-c40d-474c-9a73-c41f6dab0111")
 	)
 	(wire
 		(pts
@@ -18383,7 +18345,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 265.43) (xy 213.36 265.43)
+			(xy 226.06 266.7) (xy 232.41 266.7)
 		)
 		(stroke
 			(width 0)
@@ -18970,16 +18932,6 @@
 			(type default)
 		)
 		(uuid "9c0b3133-182e-4c48-825a-a8cc905c70aa")
-	)
-	(bus
-		(pts
-			(xy 203.2 246.38) (xy 227.33 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c2af462-a13f-416c-8c9c-6af3299f5649")
 	)
 	(wire
 		(pts
@@ -20273,7 +20225,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 267.97) (xy 143.51 267.97)
+			(xy 139.7 267.97) (xy 152.4 267.97)
 		)
 		(stroke
 			(width 0)
@@ -20980,16 +20932,6 @@
 			(type default)
 		)
 		(uuid "dd255995-2540-4b6d-9f53-fb3c73dde6d3")
-	)
-	(wire
-		(pts
-			(xy 205.74 248.92) (xy 205.74 265.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd6da3c3-2603-4183-909e-8424d76d809a")
 	)
 	(wire
 		(pts
@@ -22165,7 +22107,7 @@
 	)
 	(text "~{DBE33} is the 3.3V bus buffer enable.  It excludes\nthe ICU, because the latter will output 5V and can't\noutput directly to the 3.3V bus.  It has its own\nbuffer."
 		(exclude_from_sim no)
-		(at 143.256 258.064 0)
+		(at 139.446 258.064 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22346,7 +22288,7 @@
 		)
 		(uuid "0a7fdab2-0003-448c-9eea-cafa62ffe442")
 	)
-	(label "PAV"
+	(label "PAV33"
 		(at 170.18 81.28 90)
 		(fields_autoplaced yes)
 		(effects
@@ -22589,13 +22531,13 @@
 		(uuid "1a6b6721-643e-4f92-bfb5-34880d3b569d")
 	)
 	(label "~{CS_E}"
-		(at 199.39 254 90)
+		(at 199.39 250.19 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "1ae68280-5ab8-4eff-9a02-64d7c35b4b4c")
 	)
@@ -22743,13 +22685,13 @@
 		(uuid "221ac821-a6d5-4518-bcce-feee25dfa701")
 	)
 	(label "~{PAV}"
-		(at 205.74 250.19 270)
+		(at 226.06 266.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "22b5aacb-2474-487d-b3b3-7cc7cd9ec374")
 	)
@@ -22973,7 +22915,7 @@
 		)
 		(uuid "397625a8-149e-42a9-bfef-38dd882adcfc")
 	)
-	(label "PAV"
+	(label "PAV33"
 		(at 274.32 81.28 90)
 		(fields_autoplaced yes)
 		(effects
@@ -23238,13 +23180,13 @@
 		(uuid "5019417d-8b01-4769-a8ff-d6483dfb38e6")
 	)
 	(label "~{DBE33}"
-		(at 143.51 267.97 0)
+		(at 152.4 267.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "51327855-787f-498f-814d-6acb492b7b95")
 	)
@@ -23424,7 +23366,7 @@
 		)
 		(uuid "5ae6df98-3450-4871-b6cb-586baacf4198")
 	)
-	(label "PAV"
+	(label "PAV33"
 		(at 223.52 81.28 90)
 		(fields_autoplaced yes)
 		(effects
@@ -24513,7 +24455,7 @@
 		)
 		(uuid "9e0413ef-df63-4f1f-b517-62307e06b6e3")
 	)
-	(label "{AD[0..15],A[16..23],~{ADS},~{HBE},~{FLT},~{TSO},ST[0..3],~{PFS},U,~{HOLD},~{HLDA},~{INT},~{BPT},~{SPC},~{WR},~{RD},~{DBE},~{DDIN},~{PAV},PAV,RDY,CTTL}"
+	(label "{AD[0..15],A[16..23],~{ADS},~{HBE},~{FLT},~{TSO},ST[0..3],~{PFS},U,~{HOLD},~{HLDA},~{INT},~{BPT},~{SPC},~{WR},~{RD},~{DBE},~{DDIN},~{PAV},PAV33,RDY,CTTL}"
 		(at 35.56 130.81 90)
 		(fields_autoplaced yes)
 		(effects
@@ -24766,8 +24708,8 @@
 		)
 		(uuid "b2d5d409-0a18-4e00-bb39-517ddb4fb943")
 	)
-	(label "PAV"
-		(at 256.54 250.19 270)
+	(label "PAV33"
+		(at 265.43 266.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -25971,7 +25913,7 @@
 				)
 			)
 		)
-		(property "Value" "NS32016 DNP"
+		(property "Value" "NS32016"
 			(at 59.69 109.22 0)
 			(effects
 				(font
@@ -26176,7 +26118,7 @@
 				)
 			)
 		)
-		(property "Value" "NS32082 DNP"
+		(property "Value" "NS32082"
 			(at 143.51 44.45 0)
 			(effects
 				(font
@@ -27589,7 +27531,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C466613"
+		(property "LCSC" "C3012376"
 			(at 95.25 95.25 0)
 			(effects
 				(font
@@ -27732,7 +27674,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C466613"
+		(property "LCSC" "C3012376"
 			(at 95.25 151.13 0)
 			(effects
 				(font
@@ -28222,7 +28164,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C466613"
+		(property "LCSC" "C3012376"
 			(at 133.35 96.52 0)
 			(effects
 				(font
@@ -28694,7 +28636,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C466613"
+		(property "LCSC" "C3012376"
 			(at 187.96 96.52 0)
 			(effects
 				(font
@@ -29101,7 +29043,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C466613"
+		(property "LCSC" "C3012376"
 			(at 238.76 96.52 0)
 			(effects
 				(font
@@ -29507,7 +29449,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C466613"
+		(property "LCSC" "C3012376"
 			(at 219.71 156.21 0)
 			(effects
 				(font
@@ -30033,7 +29975,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C466613"
+		(property "LCSC" "C3012376"
 			(at 231.14 135.89 0)
 			(effects
 				(font
@@ -30787,7 +30729,7 @@
 				)
 			)
 		)
-		(property "Value" "MX29LV040C DNP"
+		(property "Value" "MX29LV040C"
 			(at 253.492 213.868 0)
 			(effects
 				(font
@@ -31158,7 +31100,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2863502"
+		(property "LCSC" "C842279"
 			(at 105.41 209.55 0)
 			(effects
 				(font
@@ -31483,16 +31425,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 223.52 254 0)
+		(at 242.57 255.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "553d6ff8-02e9-4614-b072-b0450ca3a6f2")
-		(property "Reference" "#PWR0154"
-			(at 223.52 257.81 0)
+		(uuid "59f5fd42-0f62-4533-8f10-9307e8727ef6")
+		(property "Reference" "#PWR023"
+			(at 242.57 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31501,7 +31442,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 223.52 248.92 0)
+			(at 242.316 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31509,7 +31450,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 254 0)
+			(at 242.57 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31518,7 +31459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 254 0)
+			(at 242.57 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31527,7 +31468,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 223.52 254 0)
+			(at 242.57 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31536,12 +31477,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cf16bd9a-af76-423b-9d05-44c913c99758")
+			(uuid "4bbca592-f377-46dc-ae9f-b76729c5fcb9")
 		)
 		(instances
-			(project ""
+			(project "ns32k"
 				(path "/54787df0-1b8c-465f-acae-f55ec7f02da3"
-					(reference "#PWR0154")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -31564,7 +31505,7 @@
 				)
 			)
 		)
-		(property "Value" "MX29LV040C DNP"
+		(property "Value" "MX29LV040C"
 			(at 166.878 213.868 0)
 			(effects
 				(font
@@ -31785,7 +31726,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 276.86 0)
+		(at 242.57 278.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31794,7 +31735,7 @@
 		(fields_autoplaced yes)
 		(uuid "7047c82a-8156-40b6-95f7-3013a3810d90")
 		(property "Reference" "#PWR0155"
-			(at 223.52 283.21 0)
+			(at 242.57 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31803,7 +31744,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 281.94 0)
+			(at 242.57 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31811,7 +31752,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 276.86 0)
+			(at 242.57 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31820,7 +31761,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 276.86 0)
+			(at 242.57 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31829,7 +31770,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 276.86 0)
+			(at 242.57 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32343,7 +32284,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C352954"
+		(property "LCSC" "C22384791"
 			(at 109.22 265.43 0)
 			(effects
 				(font
@@ -32625,7 +32566,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C466613"
+		(property "LCSC" "C3012376"
 			(at 218.44 205.74 0)
 			(effects
 				(font
@@ -32730,16 +32671,15 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74AHC1GU04")
-		(at 228.6 265.43 0)
+		(at 247.65 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bb485fde-ca1c-4894-aef5-7f717fad4859")
 		(property "Reference" "U24"
-			(at 241.3 259.1114 0)
+			(at 251.714 258.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32747,7 +32687,7 @@
 			)
 		)
 		(property "Value" "74AHC1GU04"
-			(at 241.3 261.6514 0)
+			(at 251.714 260.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32755,7 +32695,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 228.6 265.43 0)
+			(at 247.65 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32764,7 +32704,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 228.6 265.43 0)
+			(at 247.65 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32773,7 +32713,7 @@
 			)
 		)
 		(property "Description" "74AHC1G04, Single NOT Gate, Low-Voltage CMOS"
-			(at 228.6 265.43 0)
+			(at 247.65 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32781,8 +32721,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C352954"
-			(at 228.6 265.43 0)
+		(property "LCSC" "C22384791"
+			(at 247.65 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33247,7 +33187,7 @@
 				)
 			)
 		)
-		(property "Value" "NS32202 DNP"
+		(property "Value" "NS32202"
 			(at 328.93 72.644 0)
 			(effects
 				(font
@@ -33465,7 +33405,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C466613"
+		(property "LCSC" "C3012376"
 			(at 201.93 205.74 0)
 			(effects
 				(font
@@ -33544,7 +33484,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C466613"
+		(property "LCSC" "C3012376"
 			(at 247.65 19.05 0)
 			(effects
 				(font
@@ -33701,7 +33641,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C466613"
+		(property "LCSC" "C3012376"
 			(at 92.71 270.51 0)
 			(effects
 				(font
@@ -34003,7 +33943,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2863502"
+		(property "LCSC" "C842279"
 			(at 105.41 224.79 0)
 			(effects
 				(font
@@ -34116,7 +34056,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2863502"
+		(property "LCSC" "C842279"
 			(at 105.41 241.3 0)
 			(effects
 				(font
@@ -34504,7 +34444,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2863502"
+		(property "LCSC" "C842279"
 			(at 154.94 278.13 0)
 			(effects
 				(font

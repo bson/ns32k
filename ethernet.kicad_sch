@@ -6935,7 +6935,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C466613"
+		(property "LCSC" "C3012376"
 			(at 135.89 49.53 0)
 			(effects
 				(font
@@ -7173,7 +7173,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C466613"
+		(property "LCSC" "C3012376"
 			(at 146.05 49.53 0)
 			(effects
 				(font
@@ -7398,7 +7398,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C466613"
+		(property "LCSC" "C3012376"
 			(at 300.99 67.31 0)
 			(effects
 				(font
@@ -7982,7 +7982,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2226854"
+		(property "LCSC" "C84718"
 			(at 288.29 67.31 0)
 			(effects
 				(font
@@ -8222,7 +8222,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2183219"
+		(property "LCSC" "C1852854"
 			(at 193.04 151.13 0)
 			(effects
 				(font
@@ -8302,7 +8302,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C466613"
+		(property "LCSC" "C3012376"
 			(at 275.59 67.31 0)
 			(effects
 				(font
@@ -8446,7 +8446,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2226854"
+		(property "LCSC" "C84718"
 			(at 114.3 49.53 0)
 			(effects
 				(font
@@ -8605,7 +8605,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C466613"
+		(property "LCSC" "C3012376"
 			(at 265.43 67.31 0)
 			(effects
 				(font
@@ -8683,7 +8683,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2226854"
+		(property "LCSC" "C84718"
 			(at 252.73 67.31 0)
 			(effects
 				(font
@@ -9337,7 +9337,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "10µF 16V"
 			(at 205.74 224.7962 0)
 			(effects
 				(font
@@ -9373,7 +9373,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2909425"
+		(property "LCSC" "C109457"
 			(at 203.2 223.52 0)
 			(effects
 				(font
@@ -10001,7 +10001,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C466613"
+		(property "LCSC" "C3012376"
 			(at 184.15 60.96 0)
 			(effects
 				(font
@@ -10081,7 +10081,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C466613"
+		(property "LCSC" "C3012376"
 			(at 125.73 49.53 0)
 			(effects
 				(font
@@ -10307,7 +10307,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2183219"
+		(property "LCSC" "C1852854"
 			(at 203.2 138.43 0)
 			(effects
 				(font
@@ -10453,7 +10453,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C466613"
+		(property "LCSC" "C3012376"
 			(at 194.31 60.96 0)
 			(effects
 				(font
@@ -10496,7 +10496,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "10µF 16V"
 			(at 114.3 96.5262 0)
 			(effects
 				(font
@@ -10532,7 +10532,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2909425"
+		(property "LCSC" "C109457"
 			(at 111.76 95.25 0)
 			(effects
 				(font
@@ -10771,7 +10771,7 @@
 				)
 			)
 		)
-		(property "Value" "RJ45 DNP"
+		(property "Value" "RJ45"
 			(at 233.68 193.04 0)
 			(effects
 				(font
