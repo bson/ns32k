@@ -1,12 +1,7 @@
 Rev4 Changes
 
-To do:
-
 * Fix address decode bug.  Need to latch on rising edge of PAV#
   instead of falling.  Also need to control CS lengths.
-
-Done:
-
 * Ethernet 49.9 resistors see +/- 2.5V, which means they dissipate
   1/8W. We can't use 1/16W 0402 resistors here.  These get warm, so
   maybe use larget 1/2W parts here.
