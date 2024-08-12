@@ -13036,7 +13036,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "FH12000001:FH12000001"
 			(at 127 100.33 0)
 			(effects
 				(font
