@@ -12150,15 +12150,15 @@
 		(dnp no)
 		(uuid "85ab1d71-1d92-43da-b36e-cd8c81cf17b6")
 		(property "Reference" "L1"
-			(at 259.08 42.9514 90)
+			(at 262.89 51.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2.2uH 70MHz+ 1A+ 0.5Ω-"
-			(at 259.08 45.212 90)
+		(property "Value" "2.2µH 70MHz+ 1A+ 0.5Ω-"
+			(at 262.89 53.5686 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12190,22 +12190,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Mfg" "Taiyo Yuden"
-			(at 259.08 47.4726 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" ""
-			(at 259.08 49.7332 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "LCSC" "C6364734"
