@@ -12165,7 +12165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NR-24xx"
 			(at 259.08 52.07 0)
 			(effects
 				(font
