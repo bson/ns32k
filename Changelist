@@ -1,3 +1,14 @@
+Rev5
+
+Bugs:
+
+* ICU RST# should be connected to TCU RSTI# rather than MMU RST#/ABT#, or the
+  ICU will be reset on every page fault.  Workaround: cut the trace and bodge
+  it to the TCU input pin.
+
+====================
+
+
 Rev4 Changes
 
 * Fix address decode bug.  Need to latch on rising edge of PAV#
