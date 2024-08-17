@@ -1,5 +1,17 @@
 Rev4 Changes
 
+Errata:
+
+* 16C550 AS should be tied to ground.
+  Workaround: cut and lift the #24 pin, solder a bodge to GND on C31, on
+  the pad facing the "U17" print.  This hack is needed because the signal
+  passes through the AS pad and to CS# underneath the package.
+
+* ICU RST# (27) should be connected to TCU RSTI# (7) rather than the
+  MMU RST#/ABT#.  Bodge: cut the trace, solder a wire between the pins.
+
+Fixed:
+
 * Fix address decode bug.  Need to latch on rising edge of PAV#
   instead of falling.  Also need to control CS lengths.
 * Ethernet 49.9 resistors see +/- 2.5V, which means they dissipate
