@@ -7,6 +7,7 @@ Fixed:
 * ICU RST# (27) should be connected to TCU RSTI# (7) rather than the
   MMU RST#/ABT#.
 
+
 ====================
 
 Rev4
