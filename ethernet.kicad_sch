@@ -5,8 +5,9 @@
 	(uuid "6b88fdd8-b39b-4f43-9cdc-057d6530f84a")
 	(paper "A3")
 	(title_block
-		(date "2024-08-10")
-		(rev "Rev 4")
+		(title "Toy32k")
+		(date "2024-08-16")
+		(rev "Rev 5")
 	)
 	(lib_symbols
 		(symbol "Connector:RJ45_Amphenol_RJMG1BD3B8K1ANR"

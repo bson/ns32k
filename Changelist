@@ -7,6 +7,9 @@ Fixed:
 * ICU RST# (27) should be connected to TCU RSTI# (7) rather than the
   MMU RST#/ABT#.
 
+* Reset too short: make R6 47k
+
+* The TCU ADS# *should* be connected to the MMU PAV#, not the CPU ADS#.
 
 ====================
 
@@ -24,6 +27,12 @@ Known bugs:
   * ICU RST# should be connected to TCU RSTI# rather than MMU RST#/ABT#, or the
   ICU will be reset on every page fault.  Workaround: cut the trace and bodge
   it to the TCU input pin.
+
+* The TCU ADS# *should* be connected to the MMU PAV#, not the CPU ADS#.
+  Workaround: bodge a connection from TCU ADS# (6) to MMU PAV# (44), cut old
+  ADS# trace.
+
+* Reset too short: make R6 47k
 
 Fixed:
 

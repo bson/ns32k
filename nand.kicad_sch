@@ -5,9 +5,9 @@
 	(uuid "f6b408ee-a647-4b09-ab8f-07ea53761664")
 	(paper "A3")
 	(title_block
-		(title "NS32016 Toy PCB")
-		(date "2024-08-10")
-		(rev "Rev 4")
+		(title "Toy32k")
+		(date "2024-08-16")
+		(rev "Rev 5")
 		(comment 1 "bson@rockgarden.net")
 		(comment 2 "Jan Brittenson")
 		(comment 3 "NAND Flash")

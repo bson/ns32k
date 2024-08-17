@@ -5,9 +5,9 @@
 	(uuid "54787df0-1b8c-465f-acae-f55ec7f02da3")
 	(paper "A3")
 	(title_block
-		(title "NS32016 Toy PCB")
-		(date "2024-08-10")
-		(rev "Rev 4")
+		(title "Toy32k")
+		(date "2024-08-16")
+		(rev "Rev 5")
 		(comment 1 "bson@rockgarden.net")
 		(comment 2 "Jan Brittenson")
 		(comment 3 "Power, NS32k Clock, Reset")
@@ -25687,7 +25687,7 @@
 		)
 		(uuid "f77a165b-bc91-45e0-b652-ae9c2d6f0edc")
 	)
-	(label "~{ADS}"
+	(label "~{PAV}"
 		(at 58.42 200.66 270)
 		(fields_autoplaced yes)
 		(effects
