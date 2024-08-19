@@ -22033,16 +22033,6 @@
 		)
 		(uuid "00cf4e8f-b668-4545-8367-165b5ee3122d")
 	)
-	(text "Signal delay ~10ns\nFor ~{CS} to trail PAxx"
-		(exclude_from_sim no)
-		(at 266.954 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8c8896dc-214e-4f37-8dc0-d01fd4e3db09")
-	)
 	(text "0x000000-0x7fffff  8 x 1MB addressable regions\n0x000000-0x0fffff  1MB (512k x 16) NOR Flash\n0x100000-0x1fffff  ICU\n0x200000-0x2fffff  UART\n0x300000-0x3fffff  NAND Flash\n0x400000-0x4fffff  Ethernet\n0x800000-0xffffff  8MB RAM (4M x 16)"
 		(exclude_from_sim no)
 		(at 234.442 159.512 0)
