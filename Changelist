@@ -1,6 +1,11 @@
 Rev5
 
-Fixed:
+Changes:
+
+* Replaced 30k pullups/pulldowns with 33k.  Because that's what I've
+  been using anyway.
+
+* UART can't use PA0,PA1,PA2... should be PA1,PA2,PA3
 
 * 16C550 AS should be tied to ground.
 
@@ -16,6 +21,10 @@ Fixed:
 Rev4
 
 Known bugs:
+
+* UART can't use PA0,PA1,PA2... should be PA1,PA2,PA3
+  Workaround: replace PA0 with a bodge to PA3.  This moves odd UAT
+  registers to offset 8.  So, 0x0, 0x8, 0x2, 0x9, 0x3, 0xa...
 
 * 16C550 AS should be tied to ground.
   Workaround: cut and lift the #24 pin, solder a bodge to GND on C31, on

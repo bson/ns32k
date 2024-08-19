@@ -9973,7 +9973,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "33k"
 			(at 200.66 50.7999 0)
 			(effects
 				(font
@@ -12125,7 +12125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NR-24xx"
 			(at 259.08 52.07 0)
 			(effects
 				(font
@@ -12152,13 +12152,20 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C6364734"
-			(at 259.08 52.07 0)
+		(property "Mfg" "Taiyu Yuden"
+			(at 258.826 46.228 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "Part" "NRH2412T2R2MNGH"
+			(at 259.842 48.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
