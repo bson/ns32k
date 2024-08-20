@@ -1,5 +1,7 @@
 Rev5
 
+* Should have tied NOR flash WE# to GND instead of +3.3V.
+
 Changes:
 
 * Replaced 30k pullups/pulldowns with 33k.  Because that's what I've
